@@ -12,3 +12,8 @@ int main(){
     //mengisi array pada lokasi/index tertentu
     skor[2] = 25;
     cout << "Skor ke 3 = " << skor [2] << endl;
+    //mengisi array dengan loop for 
+    for(int i = 0; i < 3; i++){
+        cout << "Nama Mahasiswa ke-" << i+1 << " = ";
+        cin >> nama[i];
+    }
